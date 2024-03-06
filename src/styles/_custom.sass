@@ -48,7 +48,11 @@
   background-color: #FFCE00
 
 .slyder-a__bullets__item
-  margin: 0 2px
+  margin: 0 5px
+  @media screen and ( max-width: $bp-max-lg )
+    margin: 0 3px
+.slyder-a__bullets__item--active
+  background-color: #FFFFFF
 
 .crd--avatarHorizontal
   position: relative

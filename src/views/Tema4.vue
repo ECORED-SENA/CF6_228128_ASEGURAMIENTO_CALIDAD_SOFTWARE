@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 4
       h1 Patrones creacionales
-    p.mb-5(data-aos="fade-right") Una de las tareas habituales en el proceso de construcción de software es distribuir responsabilidades entre un conjunto de módulos o clases, siguiendo los principios establecidos por los paradigmas de programación, como la programación orientada a objetos. No obstante, al abordar un requerimiento específico, será necesario instanciar objetos de distintos tipos que, asumiendo sus responsabilidades, ejecutan cierta lógica.
+    p.mb-5(data-aos="fade-right") Una de las tareas habituales en el proceso de construcción de #[i software] es distribuir responsabilidades entre un conjunto de módulos o clases, siguiendo los principios establecidos por los paradigmas de programación, como la programación orientada a objetos. No obstante, al abordar un requerimiento específico, será necesario instanciar objetos de distintos tipos que, asumiendo sus responsabilidades, ejecutan cierta lógica.
     .row.justify-content-center
       .col-lg-8.bg-c8(data-aos="fade-down")
         .p-4
@@ -20,7 +20,7 @@
     Separador
     #t_4_1
     .titulo-segundo.color-acento-contenido
-      h2 4.1. Singleton
+      h2 4.1 Singleton
     .row.mb-5
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p Este patrón de diseño creacional se encarga de definir la forma en que se puede garantizar que exista una única instancia de una clase particular en el contexto de la aplicación. Esto es útil para casos en los que, por cuestiones de manejo de memoria o de la lógica del negocio, se requiere que sea el mismo objeto quien responda todos los mensajes, independientemente del contexto actual de la aplicación.
@@ -51,7 +51,7 @@
     Separador
     #t_4_2
     .titulo-segundo.color-acento-contenido
-      h2 4.2. Fábrica abstracta
+      h2 4.2 Fábrica abstracta
     p.mb-5(data-aos="fade-right") Es un patrón de diseño creacional que permite producir familias de objetos relacionados sin especificar sus clases concretas. En el siguiente recurso, podrá apreciar en detalle sus características.
     .row.bg-c11
       .col-12
@@ -62,17 +62,15 @@
                 .row.mb-5
                   .col-lg-7.bg-c7.mb-4.mb-lg-0
                     .p-4
-                      p.mb-2.txt-c3.fs-1 #[b Fábrica abstracta]
                       p Este patrón de diseño permite las #[b instancias de una familia de objetos relacionados o dependientes], sin necesidad de entrar en detalles particulares de su implementación, de forma que tanto el cliente como los elementos creados por la fábrica son totalmente independientes unos de otros.
-                      p Este patrón define #[b una interfaz de tipo fábrica], la cual se refina por medio de la creación de fábricas concretas, las cuales pueden producir diferentes tipos de objetos y en diferentes combinaciones, según las necesidades del cliente.
-                      p.mb-0 Los elementos importantes de este patrón se describen a continuación (Landa, 2018c):
+                      p.mb-0 Este patrón define #[b una interfaz de tipo fábrica], la cual se refina por medio de la creación de fábricas concretas, las cuales pueden producir diferentes tipos de objetos y en diferentes combinaciones, según las necesidades del cliente.
                   .col-lg-5
                     figure
                       img(src='@/assets/curso/tema4/img4.svg', style="width:390px", alt='').m-auto
                 .row.mb-5
                   .col-12.bg-c10
                     .p-2
-                      p.text-center.text-white.fs-2.mb-0 #[b Los elementos importantes de este patrón se describen a continuación (Landa, 2018c)]
+                      p.text-center.text-white.fs-4.mb-0 #[b Los elementos importantes de este patrón se describen a continuación (Landa, 2018c)]
                 .row.align-items-center
                   .col-lg-5.d-none.d-lg-block
                     figure

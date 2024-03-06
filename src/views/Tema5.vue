@@ -6,11 +6,11 @@
       .titulo-principal__numero
         span 5
       h1 Patrones estructurales
-    p(data-aos="fade-right") Los patrones estructurales proveen una orientación relacionada con la forma de definir los componentes de los objetos.
+    p.mb-0(data-aos="fade-right") Los patrones estructurales son un conjunto de conceptos y principios fundamentales en el diseño de software que proporcionan una guía invaluable para organizar y definir los componentes de los objetos de manera eficiente y coherente. Estos patrones se basan en la idea de establecer relaciones y estructuras entre los diferentes elementos de un sistema de software, permitiendo una arquitectura más robusta, flexible y fácil de mantener.
     Separador
     #t_5_1
     .titulo-segundo.color-acento-contenido
-      h2 5.1. Fachada
+      h2 5.1 Fachada
     .row.align-items-center.mb-5
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p El patrón fachada se utiliza cuando el sistema está compuesto por varios subsistemas y se hace complejo gestionar los mensajes que debe realizar el cliente en cada uno de estos subsistemas.
@@ -81,16 +81,16 @@
                   p.txt-c4 #[b Cliente]
               p Hace uso de las operaciones de alto nivel por medio de la fachada.
           p.mb-5(data-aos="fade-right") En la siguiente figura, se puede ver cada uno de los componentes del patrón.
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      p.mb-0 #[b Figura 10]. Componentes del patrón fachada
     .row.justify-content-center
       .col-lg-8(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          p.mb-0 #[b Figura 10]. Componentes del patrón fachada
         figure
           img(src='@/assets/curso/tema5/img9.svg', alt='La figura muestra un diagrama de patrón de diseño de fachada con un cliente interactuando con una fachada que ofrece tres operaciones. La fachada a su vez se comunica con tres subsistemas, simplificando la interacción del cliente al proporcionar un único punto de acceso a las funcionalidades del sistema.').m-auto
     Separador
     #t_5_2
     .titulo-segundo.color-acento-contenido
-      h2 5.2. Delegate
+      h2 5.2 Delegate
     .row
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure

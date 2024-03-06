@@ -6,9 +6,9 @@
       .titulo-principal__numero
         span 3
       h1 Patrones comportamentales
-    p.mb-5(data-aos="fade-right") Como se había mencionado en los conceptos GOF, los patrones de diseño comportamentales se centran en definir la forma en cómo los objetos interactúan entre ellos por medio de mensajes.
-    .row.justify-content-center
-      .col-lg-8.bg-c8(data-aos="fade-left")
+    p.mb-4(data-aos="fade-right") Como se había mencionado en los conceptos GOF, los patrones de diseño comportamentales se centran en definir la forma en cómo los objetos interactúan entre ellos por medio de mensajes.
+    .row
+      .col-lg-8.bg-c8.order-2.order-lg-1(data-aos="fade-left")
         .p-4
           .row.align-items-center
             .col-md-auto.mb-4.mb-md-0
@@ -17,10 +17,13 @@
             .col.bg-c7
               .p-4
                 p.mb-0 Los patrones de comportamiento gestionan algoritmos, relaciones y responsabilidades entre objetos.
+      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
+        figure
+          img(src='@/assets/curso/tema3/img5.png', style="width:320px", alt='').m-auto
     Separador
     #t_3_1
     .titulo-segundo.color-acento-contenido
-      h2 3.1. Estrategia
+      h2 3.1 Estrategia
     p.mb-5(data-aos="fade-right") El patrón estrategia permite encapsular un conjunto de algoritmos de forma que puedan ser seleccionados dinámicamente durante el tiempo de ejecución de acuerdo con las acciones del cliente. Este patrón es una de las formas en las que se ven reflejadas fácilmente las características de la programación orientada a objetos, particularmente, lo referente a encapsulamiento y polimorfismo (Landa, 2018c).
     .row.bg-c3
       .col-12
@@ -51,7 +54,7 @@
     Separador
     #t_3_2
     .titulo-segundo.color-acento-contenido
-      h2 3.2. Comando
+      h2 3.2 Comando
     p(data-aos="fade-right") El patrón comando permite aislar los objetos que realizan una petición de los objetos concretos encargados de recibir y realizar dicha acción. Esto permite, entre otras cosas, que las peticiones puedan ser enviadas a varios receptores y, si se maneja el estado de las solicitudes, controla acciones de tipo Undo y Redo.
     p.mb-5(data-aos="fade-right") El patrón comando necesita la implementación de varios elementos (Landa, 2018c), así:
     .row.mb-5
@@ -101,7 +104,7 @@
     Separador
     #t_3_3
     .titulo-segundo.color-acento-contenido
-      h2 3.3. Iterator
+      h2 3.3 Iterator
     p(data-aos="fade-right") Este patrón de diseño está orientado al trabajo con colecciones y facilita el acceso a todos los elementos de la colección sin tener la necesidad de conocer su estructura.
     p.mb-5(data-aos="fade-right") En este patrón, se reconocen dos elementos clave: los enumeradores y los iteradores:
     .row.bg-c3

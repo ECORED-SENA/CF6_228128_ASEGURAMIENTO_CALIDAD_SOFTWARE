@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
     <layout name="npnxnanbsnfns00000000001" font="Didact Gothic" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
     <layout name="pxabnsnfns00000000001" font="Didact Gothic" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
@@ -1157,14 +1157,14 @@
       <string id="background_audio_shortcut">Activar/Desactivar el audio de fondo</string>
       <string id="acctext_shortcut">Activar/Desactivar texto accesible</string>
       <string id="togglezoom">Alternar los modos de zoom</string>
-      <string id="closedcaptions_shortcut">Activar/Desactivar accesibilidad del texto</string>
-      <string id="previous_shortcut">Diapositiva anterior</string>
-      <string id="fullscreen_shortcut">Cambiar el modo de pantalla completa</string>
-      <string id="submit_shortcut">Validar diapositiva</string>
+      <string id="closedcaptions_shortcut">Activar/desactivar subtítulos</string>
+      <string id="previous_shortcut">Anterior</string>
+      <string id="fullscreen_shortcut">Activar/desactivar pantalla completa</string>
+      <string id="submit_shortcut">Enviar</string>
       <string id="playpause_shortcut">Reproducir / pausar</string>
-      <string id="next_shortcut">Siguiente diapositiva</string>
+      <string id="next_shortcut">Siguiente</string>
       <string id="mute_shortcut">Silenciar / activar sonido</string>
-      <string id="replay_shortcut">Volver a reproducir la diapositiva</string>
+      <string id="replay_shortcut">Volver a reproducir</string>
       <string id="prev">ANTERIOR</string>
       <string id="acc_previous">siguiente</string>
       <string id="clear">Borrar y volver al menú</string>
@@ -1172,24 +1172,17 @@
       <string id="continue">Continuar</string>
       <string id="continueresponsive">Continuar</string>
       <string id="submit">ENVIAR</string>
-      <string id="acc_submit">presentar</string>
       <string id="submitall">ENVIAR TODO</string>
       <string id="acc_submitall">enviar todo</string>
       <string id="filter">Filtro</string>
       <string id="acc_finish">finalizar</string>
-      <string id="acc_pause">pausa</string>
       <string id="restart">Reiniciar</string>
-      <string id="acc_replay">repetición</string>
-      <string id="acc_play">Reproducir</string>
       <string id="next">SIGUIENTE</string>
-      <string id="acc_next">siguiente</string>
+      <string id="acc_next">Siguiente (Ctrl+Alt+punto)</string>
       <string id="finish">FINALIZAR</string>
-      <string id="acc_volume">volumen</string>
       <string id="keyboardshortcuts_lower">Atajos de teclado</string>
       <string id="background_audio">Audio de fondo</string>
       <string id="zoom_to_fit">Habilitar zoom del navegador</string>
-      <string id="acc_enter_fullscreen">Ingresar en el modo de pantalla completa</string>
-      <string id="acc_exit_fullscreen">Salir del modo de pantalla completa</string>
       <string id="accessible_text">Texto accesible</string>
       <string id="modern_video_captions_on">~øñ</string>
       <string id="modern_video_captions_off">~øff</string>
@@ -1256,16 +1249,21 @@
       <string id="three_image_item">ítem</string>
       <string id="three_image_items">ítems</string>
       <string id="three_image_of">de</string>
-      <string id="settings_tip">Ajustes</string>
-      <string id="previous_slide_tip">Diapositiva anterior</string>
-      <string id="unmute_tip">Desactivar silencio</string>
-      <string id="submit_tip">Enviar</string>
-      <string id="pause_tip">Pausar</string>
-      <string id="play_tip">Reproducir</string>
-      <string id="next_slide_tip">Siguiente diapositiva</string>
-      <string id="mute_tip">Silenciar</string>
-      <string id="closed_captions_tip">Activar / desactivar subtítulos</string>
-      <string id="replay_tip">Reproducir</string>
+      <string id="acc_settings">Ajustes</string>
+      <string id="acc_previous_visual">Anterior (Ctrl+Alt+,)</string>
+      <string id="search_toggle">Buscar</string>
+      <string id="acc_cc_show">Mostrar subtítulos (Ctrl+Alt+C)</string>
+      <string id="acc_cc_hide">Ocultar subtítulos (Ctrl+Alt+C)</string>
+      <string id="acc_submit">Enviar (Ctrl+Alt+S)</string>
+      <string id="acc_pause">Pausar (Ctrl+Alt+P)</string>
+      <string id="acc_enter_fullscreen">Poner a pantalla completa (Ctrl+Alt+F)</string>
+      <string id="acc_unmute">Quitar silencio (Ctrl+Alt+M)</string>
+      <string id="acc_play">Reproducir (Ctrl+Alt+P)</string>
+      <string id="acc_exit_fullscreen">Salir de pantalla completa (Ctrl+Alt+F)</string>
+      <string id="acc_next_visual">Siguiente (Ctrl+Alt+.)</string>
+      <string id="acc_mute">Silenciar (Ctrl+Alt+M)</string>
+      <string id="acc_playback_speed">Velocidad de reproducción</string>
+      <string id="acc_replay">Volver a reproducir (Ctrl+Alt+R)</string>
       <string id="search">Buscar ...</string>
       <string id="acc_slide_progress">progreso de la diapositiva</string>
       <string id="desktop_start">Comenzar el curso</string>
@@ -1274,7 +1272,6 @@
       <string id="acc_locked">bloqueado</string>
       <string id="acc_visited">visitado</string>
       <string id="sidebar_toggle">Mostrar/ocultar barra lateral</string>
-      <string id="search_toggle">Buscar</string>
       <string id="question_list">Lista de preguntas</string>
       <string id="check_include">De verificación para incluir</string>
       <string id="disabled_orientation">Rote el dispositivo</string>
@@ -1292,7 +1289,6 @@
       <string id="spacebar_key">Espacio</string>
       <string id="enter_key">Intro</string>
       <string id="shift_key">Mayúsculas</string>
-      <string id="acc_closed_captions">Subtítulos cerrados. Presiona la barra de espacio para activar y desactivar los subtítulos.</string>
       <string id="acc_active">activo</string>
       <string id="transcript_auto_scroll">Desplazamiento automático</string>
       <string id="acc_modern_video_transcript">Abrir</string>
@@ -1305,7 +1301,6 @@
       <string id="video_transcript_resume_autoscroll">Reanudar desplazamiento automático</string>
       <string id="video_transcript_select_track">Seleccionar pista</string>
       <string id="video_transcript_title">Transcripciones</string>
-      <string id="acc_playback_speed">velocidad de reproducción</string>
       <string id="playback_speed_title">Velocidad de reproducción</string>
       <string id="playback_speed_normal">Normal</string>
       <string id="streaming_video_local_playback_learn_more">Saber más</string>

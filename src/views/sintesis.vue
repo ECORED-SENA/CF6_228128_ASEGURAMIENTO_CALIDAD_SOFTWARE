@@ -8,7 +8,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis clasifica los patrones de diseño de software en comportamentales, que tratan la interacción entre objetos, creacionales sobre la creación de objetos, y estructurales que abordan la composición de los objetos. Incluye ejemplos como Estrategia, Singleton y Fachada, y señala que estos patrones derivan de principios de programación y necesidades prácticas del desarrollo de software.")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

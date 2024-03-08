@@ -341,7 +341,7 @@
                   p.text-white.mb-0 Se piensa en esta arquitectura si la necesidad de la solución informática es integrar varias fuentes de datos desde diferentes aplicaciones o sobre la misma.
                 .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
                   figure
-                    img(src='@/assets/curso/tema2/img14.svg', style="width:480px", alt='').m-auto
+                    img(src='@/assets/curso/tema2/img14.svg', style="width:480px", alt='El diagrama ilustra los principios de la programación orientada a objetos, mostrando objetos que contienen datos y métodos. Estos objetos están interconectados, permitiendo la interacción entre ellos mediante la invocación de métodos, lo que facilita el procesamiento y manipulación de datos. Esta interacción subraya la importancia de la encapsulación y la comunicación en la arquitectura del software orientado a objetos.').m-auto
               .row.align-items-center.justify-content-center
                 .col-lg-4.order-2.order-lg-1
                   p.txt-c1 #[b Arquitectura de llamada y retorno]

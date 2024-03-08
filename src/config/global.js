@@ -509,11 +509,11 @@ export default {
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y Producción audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Actividad didáctica',

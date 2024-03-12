@@ -70,7 +70,7 @@
                 .row.mb-5
                   .col-12.bg-c10
                     .p-2
-                      p.text-center.text-white.fs-4.mb-0 #[b Los elementos importantes de este patrón se describen a continuación (Landa, 2018c)]
+                      p.text-center.text-white.fs-5.mb-0 #[b Los elementos importantes de este patrón se describen a continuación (Landa, 2018c)]
                 .row.align-items-center
                   .col-lg-5.d-none.d-lg-block
                     figure

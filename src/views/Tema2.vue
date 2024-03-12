@@ -135,7 +135,7 @@
             .col-auto
               figure
                 img(src='@/assets/curso/tema2/img6.svg', style="width:950px", alt='La imagen ilustra el patrón Modelo-Vista-Controlador (MVC), donde el Controlador actúa como el cerebro que inicia la interacción, maneja la presentación y flujo de datos entre la Vista y el Modelo. La Vista muestra el estado actual del Modelo y se actualiza a través de eventos, mientras que el Modelo gestiona la lógica de los datos y comunica cambios al Controlador, que a su vez puede modificar el Modelo y actualizar la Vista. Este ciclo asegura que los datos presentados al usuario sean consistentes y estén actualizados.')
-              figcaption Nota. Hernández, R. (2021). El patrón modelo-vista-controlador: Arquitectura y frameworks explicados.
+              figcaption Nota. Hernández, R. (2021). El patrón modelo-vista-controlador: Arquitectura y #[i frameworks] explicados.
     p.mb-5(data-aos="fade-right") Es así como se pueden observar algunas de las responsabilidades de cada capa, para lo que hay que seguir unos pasos específicos al momento de iniciar sesión en una aplicación, observe:
     .row.bg-c3
       .col-12
@@ -145,7 +145,7 @@
               PasosA.color-acento-contenido(tipo="n")(data-aos="fade-down")
                 .row.align-items-center
                   .col-lg-6.order-2.order-lg-1
-                    p.mb-0 El usuario ingresa los datos de acceso, login y password, en la vista. Esta información se solicita al usuario dentro de dos cajas de texto.
+                    p.mb-0 El usuario ingresa los datos de acceso, #[i login] y #[i password], en la vista. Esta información se solicita al usuario dentro de dos cajas de texto.
                   .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
                     figure
                       img(src='@/assets/curso/tema2/img3.png', style="width:250px", alt='').m-auto
@@ -210,7 +210,7 @@
                   th Desventajas
               tbody.bg-white
                 tr
-                  td Fácil de probar y debuggear.
+                  td Fácil de probar y #[i debuggear].
                   td Alto acoplamiento:  si se hace un cambio en alguna parte del código, puede cambiar el comportamiento en otra parte del mismo.
                 tr
                   td Fácil de desplegar.
@@ -230,7 +230,7 @@
             h2 2.4 Microservicios
           p.mb-5(data-aos="fade-right") Esta arquitectura se enfoca en crear pequeños programas API, que permiten que los servicios se comuniquen, posibilitando que las aplicaciones con estas arquitecturas puedan evolucionar y adaptarse muchísimo mejor. Además, se pueden incluir servicios de otras plataformas u otras aplicaciones, ya que pueden ser consumidos para la manipulación de la información.
           .row.justify-content-center.mb-5
-            .col-lg-8
+            .col-lg-10
               .titulo-sexto.color-acento-contenido(data-aos="fade-right")
                 p.mb-0 #[b Figura 3]. Microservicios
               figure(data-aos="fade-left")

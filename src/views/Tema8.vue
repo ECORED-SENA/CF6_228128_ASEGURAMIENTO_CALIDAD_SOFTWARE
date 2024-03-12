@@ -16,7 +16,7 @@
                 img(src='@/assets/curso/tema3/img1.png', style="width:120px", alt='').m-auto
             .col.bg-c7
               .p-4
-                p.mb-0 Un componente puede ser software, como, por ejemplo, las bases de datos o una interfaz de usuario; y también puede ser hardware, como un dispositivo o incluso una unidad de negocio, como, por ejemplo, la nómina, el inventario, proveedores, etc.
+                p.mb-0 Un componente puede ser #[i software], como, por ejemplo, las bases de datos o una interfaz de usuario; y también puede ser #[i hardware], como un dispositivo o incluso una unidad de negocio, como, por ejemplo, la nómina, el inventario, proveedores, etc.
     p(data-aos="fade-right") Este tipo de diagrama es muy útil para arquitecturas orientadas a servicios, permite mostrar la estructura general del código, por lo que puede ser usado para mostrar las funciones del sistema que se construye a cualquier parte interesada. 
     p.mb-5(data-aos="fade-right") Los elementos que conforman un diagrama de componente son los siguientes (Diagramas UML, 2019):
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")

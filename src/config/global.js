@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Patrones de diseño de <i>software</i>',
     descripcionCurso:
-      'Los patrones de diseño de <i>software</i> surgen a partir de experiencias desarrolladas en la industria y representan un conjunto de formas estandarizadas, probadas y repetibles, que permiten resolver uno o varios problemas particulares que se presentan en el diseño del software.',
+      'Los patrones de diseño de <i>software</i> surgen a partir de experiencias desarrolladas en la industria y representan un conjunto de formas estandarizadas, probadas y repetibles, que permiten resolver uno o varios problemas particulares que se presentan en el diseño del <i>software</i>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -225,7 +225,7 @@ export default {
     {
       tema: 'Arquitectura Multicapa',
       referencia:
-        'Garrido, A. [Universitat Politècnica de València - UPV]. (2017). <i>Arquitectura del software multicapa</i>.',
+        'Garrido, A. [Universitat Politécnica de Valéncia - UPV]. (2017). <i>Arquitectura del software multicapa</i>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/embed/kHvxX1E9vIU',
     },
@@ -312,7 +312,7 @@ export default {
     {
       termino: 'Patrón',
       significado:
-        'quitar de una cosa lo malo, lo que es extraño o lo que no sirve, para dejarla pura. Los Patrones de diseño (<i>Design Patterns</i>) son una solución general, reutilizable y aplicable a diferentes problemas de diseño de software.',
+        'quitar de una cosa lo malo, lo que es extraño o lo que no sirve, para dejarla pura. Los Patrones de diseño (<i>Design Patterns</i>) son una solución general, reutilizable y aplicable a diferentes problemas de diseño de <i>software</i>.',
     },
     {
       termino: 'Servidor',
@@ -526,11 +526,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Zuleidy María Ruiz Torres',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

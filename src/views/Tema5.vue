@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 5
       h1 Patrones estructurales
-    p.mb-0(data-aos="fade-right") Los patrones estructurales son un conjunto de conceptos y principios fundamentales en el diseño de software que proporcionan una guía invaluable para organizar y definir los componentes de los objetos de manera eficiente y coherente. Estos patrones se basan en la idea de establecer relaciones y estructuras entre los diferentes elementos de un sistema de software, permitiendo una arquitectura más robusta, flexible y fácil de mantener.
+    p.mb-0(data-aos="fade-right") Los patrones estructurales son un conjunto de conceptos y principios fundamentales en el diseño de #[i software] que proporcionan una guía invaluable para organizar y definir los componentes de los objetos de manera eficiente y coherente. Estos patrones se basan en la idea de establecer relaciones y estructuras entre los diferentes elementos de un sistema de #[i software], permitiendo una arquitectura más robusta, flexible y fácil de mantener.
     Separador
     #t_5_1
     .titulo-segundo.color-acento-contenido

@@ -7,7 +7,7 @@
         span 3
       h1 Patrones comportamentales
     p.mb-4(data-aos="fade-right") Como se había mencionado en los conceptos GOF, los patrones de diseño comportamentales se centran en definir la forma en cómo los objetos interactúan entre ellos por medio de mensajes.
-    .row
+    .row.align-items-center
       .col-lg-8.bg-c8.order-2.order-lg-1(data-aos="fade-left")
         .p-4
           .row.align-items-center

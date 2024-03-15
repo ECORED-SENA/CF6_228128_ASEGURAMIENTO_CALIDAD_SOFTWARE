@@ -44,7 +44,7 @@
         .col-10
           p.mb-4 En la figura, se muestra un ejemplo de un diagrama de componentes para un sistema de gestión de una clínica veterinaria.
           figure
-            img(src='@/assets/curso/tema8/img5.svg', style="width:750px", alt='La imagen es un diagrama de arquitectura de software de tres niveles con Presentación en la parte superior, Lógica de negocio en el medio y BBDD con Servicios en la base, mostrando la segmentación de funciones y su interconexión.').m-auto
+            img(src='@/assets/curso/tema8/img5.svg', style="width:850px", alt='La imagen es un diagrama de arquitectura de software de tres niveles con Presentación en la parte superior, Lógica de negocio en el medio y BBDD con Servicios en la base, mostrando la segmentación de funciones y su interconexión.').m-auto
 
 </template>
 

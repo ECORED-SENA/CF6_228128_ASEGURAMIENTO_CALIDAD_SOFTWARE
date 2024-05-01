@@ -41,6 +41,8 @@
     figure.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/tema1/img4.svg', style="width:750px", alt='El diagrama clasifica los patrones de diseño de software del grupo de los cuatro en tres tipos: creacionales, que abstraen la creación y configuración de objetos; estructurales, que agrupan entidades para formar estructuras más complejas; y comportamentales, que detallan las responsabilidades y comunicación entre objetos.').m-auto
     p.mb-5(data-aos="fade-right") Para conocer cada uno de estos patrones GOF, lo invitamos a revisar su definición:
+    .titulo-sexto.color-acento-contenido
+      span #[b Tabla 1.] Patrones GoF    
     .tabla-a.color-acento-contenido(data-aos="fade-left")
       table
         thead

@@ -18,7 +18,7 @@
     .titulo-segundo.color-acento-contenido
       h2 2.1 Patrón multicapa
     p(data-aos="fade-right") Son patrones de X niveles y se organizan en capas horizontales. Muchas de las aplicaciones informáticas han tomado este patrón como arquitectura, funciona conectando los componentes, pero estos no dependen uno del otro. Cada una de estas capas cumple con una función específica en el desarrollo de la aplicación. Su objetivo primordial es la separación de la lógica de negocios de la lógica de diseño, es decir, separar la capa de datos de la capa de presentación al usuario. 
-    p.mb-5(data-aos="fade-right") La ventaja que ofrece consiste en que el desarrollo se puede llevar a cabo en varios niveles. En caso de realizar algún cambio, sólo se afecta el nivel requerido, sin tener que revisar todo el código.
+    p.mb-5(data-aos="fade-right") La ventaja que ofrece consiste en que el desarrollo se puede llevar a cabo en varios niveles. En caso de realizar algún cambio, solo se afecta el nivel requerido, sin tener que revisar todo el código.
     .row.bg-c3
       .col-12
         .px-5
@@ -253,7 +253,7 @@
               .row.align-items-center.justify-content-center
                 .col-lg-5.order-2.order-lg-1
                   p.txt-c1 #[b La agilidad]
-                  p.text-white.mb-0 En el enfoque de microservicios, los desarrolladores se enfrentan a problemas más manejables, aplicando la estrategia de "divide y vencerás". Esto no solo facilita una mejor comprensión y solución de los problemas, sino que también permite que los equipos se dividan según los microservicios en los que trabajan, integrando posteriormente sus funcionalidades, permitiendo a los equipos avanzar más rápido y con mayor precisión.
+                  p.text-white.mb-0 En el enfoque de microservicios, los desarrolladores se enfrentan a problemas más manejables, aplicando la estrategia de “divide y vencerás”. Esto no solo facilita una mejor comprensión y solución de los problemas, sino que también permite que los equipos se dividan según los microservicios en los que trabajan, integrando posteriormente sus funcionalidades, permitiendo a los equipos avanzar más rápido y con mayor precisión.
                 .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
                   figure
                     img(src='@/assets/curso/tema2/img11.png', style="width:360px", alt='').m-auto

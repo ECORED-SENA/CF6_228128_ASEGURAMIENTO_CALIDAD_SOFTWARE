@@ -232,7 +232,7 @@ export default {
     {
       tema: 'Patrón Modelo Vista Controlador',
       referencia:
-        'Fazt. (2017). <i>¿What is the MVC Pattern?, Simple explanation</i>.',
+        'Fazt. (2017). <i>¿Qué es el patrón Modelo Vista Controlador?, Explicación simple.</i>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/embed/ANQDmqBYwns',
     },
@@ -322,7 +322,7 @@ export default {
     {
       termino: 'Sintaxis',
       significado:
-        'es la “parte de la gramática que estudia el modo en que se combinan las palabras y los grupos que éstas forman para expresar significados, así como las relaciones que se establecen entre todas esas unidades”.',
+        'es la “parte de la gramática que estudia el modo en que se combinan las palabras y los grupos que estas forman para expresar significados, así como las relaciones que se establecen entre todas esas unidades”.',
     },
     {
       termino: 'Sitio web',

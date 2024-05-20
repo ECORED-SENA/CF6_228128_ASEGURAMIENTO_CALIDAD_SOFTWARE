@@ -28,7 +28,7 @@
       .px-4.py-4.py-md-5(titulo="Asociación de comunicación")
         .row.justify-content-center
           .col-lg-5.order-2.order-lg-1
-            p Es un tipo especial de nodo que representa un recurso computacional del sistema, como, por ejemplo, un servidor.
+            p Representa el camino de comunicación entre los nodos y se grafica mediante una línea continua que une los nodos en cuestión.
           .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
             figure
               img(src='@/assets/curso/tema7/img3.svg', alt='Texto que describa la imagen')
